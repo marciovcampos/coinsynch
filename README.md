@@ -8,15 +8,15 @@ CoinSynch is a frontend challege.
 ## Give a Star! :star:
 If you liked the project or if CoinSynch helped you, please give a star ;)
 
-## Technologies implemented:
+## What is inside?
 
-- React
+- [React](https://www.typescriptlang.org/)
 - [Next.js](https://nextjs.org/)
-- TypeScript
-- Styled Components
-- Jest
-- React Testing Library
-- Husky
+- [TypeScript](https://www.typescriptlang.org/)
+- [Styled Components](https://styled-components.com/)
+- [Jest](https://jestjs.io/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- [Husky](https://github.com/typicode/husky)
 
 
 ## Getting Started
@@ -38,4 +38,4 @@ A live demo is available in [https://coinsynch.vercel.app/](https://coinsynch.ve
 
 
 ## About:
-Pet Shop was developed by [Márcio Vinícius](https://github.com/marciovcampos).
+CoinSynch was developed by [Márcio Vinícius](https://github.com/marciovcampos).
