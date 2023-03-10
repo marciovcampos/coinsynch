@@ -2,7 +2,7 @@ import * as S from './styles'
 
 const Main = () => (
   <S.Wrapper>
-    <S.Title>Boilerplate 2</S.Title>
+    <S.Title>CoinSynch</S.Title>
     <S.Description>
       TypeScript, ReactJS, NextJS e Styled Components
     </S.Description>
