@@ -7,7 +7,7 @@ describe('<Main />', () => {
     const { container } = render(<Main />)
 
     expect(
-      screen.getByRole('heading', { name: /boilerplate 2/i })
+      screen.getByRole('heading', { name: /CoinSynch/i })
     ).toBeInTheDocument()
 
     expect(container.firstChild).toMatchSnapshot()
