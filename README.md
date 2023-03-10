@@ -1,3 +1,5 @@
+![CI/CD](https://github.com/marciovcampos/coinsynch/workflows/deploy.yml/badge.svg)
+
 What is the CoinSynch?
 =====================
 
