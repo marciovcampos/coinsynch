@@ -1,4 +1,4 @@
-![CI/CD](https://github.com/marciovcampos/coinsynch/workflows/deploy.yml/badge.svg)
+![CI/CD](https://github.com/marciovcampos/coinsynch/actions/workflows/main.yml/badge.svg)
 
 What is the CoinSynch?
 =====================
