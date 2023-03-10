@@ -12,7 +12,12 @@ If you liked the project or if CoinSynch helped you, please give a star ;)
 
 - React
 - [Next.js](https://nextjs.org/)
-- Typescrip
+- TypeScript
+- Styled Components
+- Jest
+- React Testing Library
+- Husky
+
 
 ## Getting Started
 
