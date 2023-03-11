@@ -1,13 +1,10 @@
-import Head from 'next/head'
+import { Container, Title } from './styles'
 
 function Header() {
   return (
-    <div>
-      <Head>
-        <title>CoinSynch</title>
-      </Head>
-      <p>Hello world!</p>
-    </div>
+    <Container>
+      <Title>CoinSynch</Title>
+    </Container>
   )
 }
 
