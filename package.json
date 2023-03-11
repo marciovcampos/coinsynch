@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint src --no-cache --max-warnings=0",
-    "prepare": "husky install",
+    "postinstall": "husky install",
     "commit": "git-cz",
     "test": "jest",
     "test:watch": "yarn test --watch"

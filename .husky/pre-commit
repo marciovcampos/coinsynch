@@ -3,3 +3,6 @@
 
 echo "\\n\\n\\nLint Staged \\n\\n\\n"
 npx --no-install lint-staged
+
+echo "\\n\\n\\nRun Tests\\n\\n\\n"
+yarn test 
