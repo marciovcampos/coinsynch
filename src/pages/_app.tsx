@@ -10,8 +10,7 @@ function App({ Component, pageProps }: AppProps) {
     <ThemeProvider theme={theme}>
       <Head>
         <title>CoinSynch</title>
-        <link rel="shortcut icon" href="/img/icon-512.png" />
-        <link rel="apple-touch-icon" href="/img/icon-512.png" />
+        <link rel="shortcut icon" href="/img/union.svg" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#0609B" />
         <meta
