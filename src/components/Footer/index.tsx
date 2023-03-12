@@ -2,7 +2,7 @@ import Grid from '@mui/material/Grid'
 import Container from 'components/Container'
 import * as S from './styles'
 
-import LogoCoinSynch from 'assets/coinsynch.svg'
+import LogoCoinSynch from 'assets/coin-synch.svg'
 
 function Footer() {
   return (

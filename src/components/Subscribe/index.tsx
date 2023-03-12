@@ -18,7 +18,20 @@ function Subscribe() {
                 urna, porttitor
               </S.Text>
             </Grid>
-            <Grid item xs={6}></Grid>
+            <Grid item xs={6}>
+              <S.Form action="/" method="post">
+                <S.Text>Email</S.Text>
+                <S.Input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                />
+                <S.Button variant="contained" type="submit">
+                  Sign up
+                </S.Button>
+              </S.Form>
+            </Grid>
           </Grid>
         </Container>
       </S.Wrapper>

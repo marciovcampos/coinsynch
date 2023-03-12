@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import theme from 'styles/theme'
+import { Button as ButtonComponet } from 'components/Button'
 import RectangleSubscribe from 'assets/rectangle-subscribe.svg'
 
 export const Wrapper = styled.div`
@@ -33,4 +34,25 @@ export const Text = styled.text`
   font-size: ${theme.font.sizes.regular.body};
   font-weight: 400;
   max-width: 24.0625rem;
+`
+
+export const Form = styled.form`
+  display: grid;
+  max-width: 24rem;
+  width: 100%;
+`
+
+export const Input = styled.input`
+  width: 100%;
+  height: 3rem;
+  border-radius: 0.375rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.3125rem;
+  padding: 1rem;
+`
+
+export const Button = styled(ButtonComponet)`
+  width: 100%;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 `
