@@ -26,6 +26,7 @@ function Subscribe() {
                   id="email"
                   name="email"
                   placeholder="Email"
+                  required
                 />
                 <S.Button variant="contained" type="submit">
                   Sign up
