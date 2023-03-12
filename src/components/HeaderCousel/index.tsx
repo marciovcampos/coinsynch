@@ -4,6 +4,7 @@ import HappyWoman from 'assets/happyWoman.svg'
 import Rectangle from 'assets/rectangle.svg'
 
 import * as S from './styles'
+import { Frame } from 'components/Frame'
 
 function HeaderCousel() {
   return (
@@ -19,6 +20,11 @@ function HeaderCousel() {
                 urna, porttitor
               </S.Text>
               <S.Button variant="contained">SIGN UP NOW</S.Button>
+              <S.Frames>
+                <Frame>Cryptos</Frame>
+                <Frame>NFTs</Frame>
+                <Frame>Games</Frame>
+              </S.Frames>
             </Grid>
             <Grid item xs={6}>
               <S.Image src={HappyWoman.src} alt="Happy Woman"></S.Image>

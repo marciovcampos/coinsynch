@@ -42,3 +42,8 @@ export const Rectangle = styled.img`
   width: 100%;
   margin-top: 3.5rem;
 `
+
+export const Frames = styled.div`
+  display: flex;
+  margin-top: 5rem;
+`
