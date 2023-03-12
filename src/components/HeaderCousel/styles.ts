@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import theme from 'styles/theme'
+import { Button as ButtonComponet } from 'components/Button'
 
 export const Wrapper = styled.div`
   width: 100%;
@@ -25,4 +26,14 @@ export const Text = styled.h5`
   font-weight: 400;
   max-width: 36.875rem;
   margin-bottom: 2rem;
+`
+
+export const Button = styled(ButtonComponet)`
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 4.8125rem;
+  padding-right: 4.8125rem;
+  font-size: ${theme.font.sizes.bold.body};
+  font-weight: 700;
+  width: 17.375rem;
 `

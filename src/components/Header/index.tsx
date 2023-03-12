@@ -1,5 +1,5 @@
 import Container from 'components/Container'
-import Button from 'components/Button'
+import { Button } from 'components/Button'
 import LogoCoinSynch from 'assets/coinSynch.svg'
 
 import * as S from './styles'

@@ -1,6 +1,5 @@
 import Grid from '@mui/material/Grid'
 import Container from 'components/Container'
-import Button from 'components/Button'
 import HappyWoman from 'assets/happyWoman.svg'
 
 import * as S from './styles'
@@ -17,7 +16,7 @@ function HeaderCousel() {
               aliquam, purus sit amet luctus venenatis, lectus magna fringilla
               urna, porttitor
             </S.Text>
-            <Button variant="contained">SIGN UP NOW </Button>
+            <S.Button variant="contained">SIGN UP NOW</S.Button>
           </Grid>
           <Grid item xs={6}>
             <S.Image src={HappyWoman.src} alt="Happy Woman"></S.Image>
