@@ -6,9 +6,13 @@ export const Wrapper = styled.div`
   width: 100%;
   height: 4rem;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: space-between;
 `
+
+export const Links = styled.div``
+
+export const Buttons = styled.div``
 
 export const LinkComponent = styled(Link)`
   margin-left: 2.5rem;
