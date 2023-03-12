@@ -1,4 +1,5 @@
 import Grid from '@mui/material/Grid'
+import { Benefit } from 'components/Benefit'
 import Container from 'components/Container'
 
 import * as S from './styles'
@@ -8,7 +9,13 @@ function AboutUs() {
     <S.Wrapper>
       <Container>
         <Grid container>
-          <Grid item xs={6}></Grid>
+          <Grid item xs={6}>
+            <Benefit title="Cypto Solutions"></Benefit>
+            <Benefit title="Cypto Solutions"></Benefit>
+            <Benefit title="Cypto Solutions"></Benefit>
+            <Benefit title="Cypto Solutions"></Benefit>
+          </Grid>
+
           <Grid item xs={6}>
             <S.Subtitle>Lorem ipsum</S.Subtitle>
             <S.Title>Lorem ipsum</S.Title>
