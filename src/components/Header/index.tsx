@@ -1,12 +1,17 @@
-import { Container, Logo, Title } from './styles'
+import Container from 'components/Container'
 import LogoCoinSynch from 'assets/coinSynch.svg'
+
+import * as S from './styles'
 
 function Header() {
   return (
-    <Container>
-      <Logo src={LogoCoinSynch.src} alt="CoinSynch Logo"></Logo>
-      <Title>CoinSynch</Title>
-    </Container>
+    <S.Wrapper>
+      <Container>
+        <S.Logo src={LogoCoinSynch.src} alt="CoinSynch Logo"></S.Logo>
+        <S.LinkComponent href="#about">About Us</S.LinkComponent>
+        <S.LinkComponent href="#about">Top Cryptos</S.LinkComponent>
+      </Container>
+    </S.Wrapper>
   )
 }
 

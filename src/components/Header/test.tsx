@@ -5,8 +5,9 @@ describe('<Header />', () => {
   it('should render the heading', () => {
     render(<Header />)
 
+    expect(screen.getByRole('link', { name: /about us/i })).toBeInTheDocument()
     expect(
-      screen.getByRole('heading', { name: /CoinSynch/i })
+      screen.getByRole('link', { name: /top cryptos/i })
     ).toBeInTheDocument()
   })
 })
