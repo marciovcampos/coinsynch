@@ -37,3 +37,8 @@ export const Button = styled(ButtonComponet)`
   font-weight: 700;
   width: 17.375rem;
 `
+
+export const Rectangle = styled.img`
+  width: 100%;
+  margin-top: 3.5rem;
+`
