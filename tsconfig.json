@@ -20,7 +20,7 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "styled-components.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "styled-components.d.ts", "**/*.ts", "**/*.tsx", "src/utils/svgTransform.js"],
   "exclude": [
     "node_modules"
   ]
