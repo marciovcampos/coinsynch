@@ -1,6 +1,6 @@
 import Grid from '@mui/material/Grid'
 import Container from 'components/Container'
-import HappyWoman from 'assets/happyWoman.svg'
+import HappyWoman from 'assets/happy-woman.svg'
 import Rectangle from 'assets/rectangle.svg'
 
 import * as S from './styles'
