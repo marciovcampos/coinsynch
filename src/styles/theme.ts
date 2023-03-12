@@ -6,7 +6,29 @@ export default {
   font: {
     family:
       "Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI' , Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
-    bold: 700
+    bold: 700,
+    sizes: {
+      regular: {
+        h1: '3rem',
+        h2: '2.5rem',
+        h3: '2rem',
+        h4: '1.5rem',
+        h5: '1.25rem',
+        body: '1rem',
+        label: '0.875rem',
+        small_abel: '0.75rem'
+      },
+      bold: {
+        h1: '3rem',
+        h2: '2.5rem',
+        h3: '2rem',
+        h4: '1.5rem',
+        h5: '1.25rem',
+        body: '1rem',
+        label: '0.875rem',
+        small_abel: '0.75rem'
+      }
+    }
   },
   colors: {
     white: '#ffffff',

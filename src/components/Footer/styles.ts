@@ -9,9 +9,11 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 `
-export const Text = styled.h1`
-  font-size: 0.75rem;
+export const Text = styled.text`
+  font-size: ${theme.font.sizes.regular.label};
   color: ${theme.colors.textBase};
 `
 
