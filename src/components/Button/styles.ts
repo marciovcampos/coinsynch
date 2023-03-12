@@ -16,9 +16,12 @@ export const ButtonWrapper = styled.button<Props>`
     background-color: ${variant == 'contained'
       ? `${theme.colors.primary.main}`
       : `${theme.colors.white}`};
+    color: ${variant == 'contained'
+      ? `${theme.colors.white}`
+      : `${theme.colors.textBase}`};
 
-    & + {
-      margin-right: 2rem;
+    & + & {
+      margin-left: 1.5rem;
     }
   `}
 `
