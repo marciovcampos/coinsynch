@@ -11,7 +11,13 @@ export const Wrapper = styled.div`
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 `
+
+export const FooterContainer = styled.div`
+  display: flex;
+`
+
 export const Text = styled.text`
+  flex: 1;
   font-size: ${theme.font.sizes.regular.label};
   color: ${theme.colors.textBase};
 `
