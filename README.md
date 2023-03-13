@@ -17,6 +17,7 @@ If you liked the project or if CoinSynch helped you, please give a star ;)
 - [Jest](https://jestjs.io/)
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
 - [Husky](https://github.com/typicode/husky)
+- [Commitlint](https://commitlint.js.org/#/)
 
 
 ## Getting Started
