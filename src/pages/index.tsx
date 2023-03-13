@@ -1,14 +1,14 @@
 import AboutUs from 'components/AboutUs'
 import Footer from 'components/Footer'
 import Header from 'components/Header'
-import HeaderCousel from 'components/HeaderCousel'
+import HeaderCarousel from 'components/HeaderCarousel'
 import Subscribe from 'components/Subscribe'
 
 export default function Home() {
   return (
     <>
       <Header />
-      <HeaderCousel />
+      <HeaderCarousel />
       <AboutUs />
       <Subscribe />
       <Footer />

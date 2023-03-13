@@ -5,7 +5,7 @@ import Rectangle from 'assets/rectangle.svg'
 import * as S from './styles'
 import { Frame } from 'components/Frame'
 
-function HeaderCousel() {
+function HeaderCarousel() {
   return (
     <>
       <Container>
@@ -34,4 +34,4 @@ function HeaderCousel() {
   )
 }
 
-export default HeaderCousel
+export default HeaderCarousel
