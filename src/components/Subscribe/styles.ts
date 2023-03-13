@@ -36,10 +36,23 @@ export const Text = styled.text`
   max-width: 24.0625rem;
 `
 
-export const Form = styled.form`
-  display: grid;
-  max-width: 24rem;
+export const SubscribeContainer = styled.div`
+  display: flex;
+`
+
+export const Description = styled.div`
   width: 100%;
+  flex: 1;
+`
+
+export const FormContainer = styled.div`
+  flex: 1;
+  display: grid;
+  width: 100%;
+`
+
+export const Form = styled.form`
+  max-width: 24rem;
 `
 
 export const Input = styled.input`
