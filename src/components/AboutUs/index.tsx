@@ -9,10 +9,15 @@ function AboutUs() {
       <Container>
         <S.AboutUsContainer>
           <S.BenefitsContainer>
-            <Benefit title="Cypto Solutions"></Benefit>
-            <Benefit title="Cypto Solutions"></Benefit>
-            <Benefit title="Cypto Solutions"></Benefit>
-            <Benefit title="Cypto Solutions"></Benefit>
+            <S.BenefitsLine1>
+              <Benefit title="Cypto Solutions"></Benefit>
+              <Benefit title="Cypto Solutions"></Benefit>
+            </S.BenefitsLine1>
+
+            <S.BenefitsLine2>
+              <Benefit title="Cypto Solutions"></Benefit>
+              <Benefit title="Cypto Solutions"></Benefit>
+            </S.BenefitsLine2>
           </S.BenefitsContainer>
 
           <S.DescriptionContainer>

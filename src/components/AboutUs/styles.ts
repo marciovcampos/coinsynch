@@ -18,6 +18,16 @@ export const BenefitsContainer = styled.div`
   flex: 1;
 `
 
+export const BenefitsLine1 = styled.div`
+  display: flex;
+`
+
+export const BenefitsLine2 = styled.div`
+  display: flex;
+  justify-content: space-between;
+  margin-left: 6.5rem;
+`
+
 export const DescriptionContainer = styled.div`
   flex: 1;
 `

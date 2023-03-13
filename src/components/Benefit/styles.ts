@@ -9,10 +9,8 @@ export const BenefitWrapper = styled.div`
   padding: 1.5rem;
   background-color: ${theme.colors.white};
   box-shadow: 0px 12px 24px 0px #0000000d;
-
-  & + & {
-    margin-left: 1.5rem;
-  }
+  margin-right: 2rem;
+  margin-bottom: 2rem;
 `
 
 export const Title = styled.h4`
