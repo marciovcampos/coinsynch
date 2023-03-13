@@ -16,7 +16,7 @@ export default {
         h5: '1.25rem',
         body: '1rem',
         label: '0.875rem',
-        small_abel: '0.75rem'
+        small_label: '0.75rem'
       },
       bold: {
         h1: '3rem',
@@ -26,7 +26,7 @@ export default {
         h5: '1.25rem',
         body: '1rem',
         label: '0.875rem',
-        small_abel: '0.75rem'
+        small_label: '0.75rem'
       }
     }
   },

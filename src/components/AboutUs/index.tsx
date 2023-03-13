@@ -10,13 +10,25 @@ function AboutUs() {
         <S.AboutUsContainer>
           <S.BenefitsContainer>
             <S.BenefitsLine1>
-              <Benefit title="Cypto Solutions"></Benefit>
-              <Benefit title="Cypto Solutions"></Benefit>
+              <Benefit title="Cypto Solutions" subtitle="For your company">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                aliquam,{' '}
+              </Benefit>
+              <Benefit title="Cypto Solutions" subtitle="For your company">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                aliquam,{' '}
+              </Benefit>
             </S.BenefitsLine1>
 
             <S.BenefitsLine2>
-              <Benefit title="Cypto Solutions"></Benefit>
-              <Benefit title="Cypto Solutions"></Benefit>
+              <Benefit title="Cypto Solutions" subtitle="For your company">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                aliquam,{' '}
+              </Benefit>
+              <Benefit title="Cypto Solutions" subtitle="For your company">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                aliquam,{' '}
+              </Benefit>
             </S.BenefitsLine2>
           </S.BenefitsContainer>
 
