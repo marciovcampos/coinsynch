@@ -1,4 +1,3 @@
-import Grid from '@mui/material/Grid'
 import { Benefit } from 'components/Benefit'
 import Container from 'components/Container'
 
@@ -8,15 +7,15 @@ function AboutUs() {
   return (
     <S.Wrapper>
       <Container>
-        <Grid container>
-          <Grid item xs={6}>
+        <S.AboutUsContainer>
+          <S.BenefitsContainer>
             <Benefit title="Cypto Solutions"></Benefit>
             <Benefit title="Cypto Solutions"></Benefit>
             <Benefit title="Cypto Solutions"></Benefit>
             <Benefit title="Cypto Solutions"></Benefit>
-          </Grid>
+          </S.BenefitsContainer>
 
-          <Grid item xs={6}>
+          <S.DescriptionContainer>
             <S.Subtitle>Lorem ipsum</S.Subtitle>
             <S.Title>Lorem ipsum</S.Title>
             <S.Text>
@@ -25,8 +24,8 @@ function AboutUs() {
               urna, porttitor
             </S.Text>
             <S.Button variant="contained">Sign up now</S.Button>
-          </Grid>
-        </Grid>
+          </S.DescriptionContainer>
+        </S.AboutUsContainer>
       </Container>
     </S.Wrapper>
   )

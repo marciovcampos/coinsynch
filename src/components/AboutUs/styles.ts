@@ -10,6 +10,18 @@ export const Wrapper = styled.div`
   padding-bottom: 8.125rem;
 `
 
+export const AboutUsContainer = styled.div`
+  display: flex;
+`
+
+export const BenefitsContainer = styled.div`
+  flex: 1;
+`
+
+export const DescriptionContainer = styled.div`
+  flex: 1;
+`
+
 export const Subtitle = styled.h5`
   color: ${theme.colors.primary.main};
   font-size: ${theme.font.sizes.bold.h5};
