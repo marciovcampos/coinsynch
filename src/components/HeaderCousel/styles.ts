@@ -3,8 +3,19 @@ import theme from 'styles/theme'
 import { Button as ButtonComponet } from 'components/Button'
 
 export const Wrapper = styled.div`
+  display: flex;
   width: 100%;
   margin-top: 6.25rem;
+`
+
+export const DescriptionContainer = styled.div`
+  width: 100%;
+  flex: 1;
+`
+
+export const ImageContainer = styled.div`
+  flex: 1;
+  width: 100%;
 `
 
 export const Image = styled.img`
