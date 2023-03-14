@@ -11,7 +11,7 @@ function AboutUs() {
   return (
     <S.Wrapper>
       <Container>
-        <S.AboutUsContainer>
+        <S.AboutUsContainer id="about">
           <S.BenefitsContainer>
             <S.BenefitsLine1>
               <Benefit
