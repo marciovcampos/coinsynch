@@ -4,10 +4,9 @@ import { Button as ButtonComponet } from 'components/Button'
 
 export const Wrapper = styled.div`
   width: 100%;
-  margin-top: 7.5rem;
-  background: linear-gradient(to bottom, ${theme.colors.white}, #f7f7f7);
   padding-top: 7.5rem;
   padding-bottom: 8.125rem;
+  background: linear-gradient(to bottom, ${theme.colors.white}, #f7f7f7);
 `
 
 export const AboutUsContainer = styled.div`
@@ -30,6 +29,7 @@ export const BenefitsLine2 = styled.div`
 
 export const DescriptionContainer = styled.div`
   flex: 1;
+  padding-top: 9.625rem;
 `
 
 export const Subtitle = styled.h5`
