@@ -1,5 +1,9 @@
 import { Benefit } from 'components/Benefit'
 import Container from 'components/Container'
+import Bitcoin from 'assets/bitcoin.svg'
+import Sync from 'assets/sync.svg'
+import Graphic from 'assets/graphic.svg'
+import Computer from 'assets/computer.svg'
 
 import * as S from './styles'
 
@@ -10,22 +14,38 @@ function AboutUs() {
         <S.AboutUsContainer>
           <S.BenefitsContainer>
             <S.BenefitsLine1>
-              <Benefit title="Cypto Solutions" subtitle="For your company">
+              <Benefit
+                icon={Bitcoin.src}
+                title="Cypto Solutions"
+                subtitle="For your company"
+              >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
                 aliquam,{' '}
               </Benefit>
-              <Benefit title="Cypto Solutions" subtitle="For your company">
+              <Benefit
+                icon={Sync.src}
+                title="Cypto Solutions"
+                subtitle="For your company"
+              >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
                 aliquam,{' '}
               </Benefit>
             </S.BenefitsLine1>
 
             <S.BenefitsLine2>
-              <Benefit title="Cypto Solutions" subtitle="For your company">
+              <Benefit
+                icon={Graphic.src}
+                title="Cypto Solutions"
+                subtitle="For your company"
+              >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
                 aliquam,{' '}
               </Benefit>
-              <Benefit title="Cypto Solutions" subtitle="For your company">
+              <Benefit
+                icon={Computer.src}
+                title="Cypto Solutions"
+                subtitle="For your company"
+              >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
                 aliquam,{' '}
               </Benefit>

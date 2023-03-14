@@ -20,7 +20,7 @@ export const Title = styled.h4`
   margin-bottom: 0.5rem;
 `
 
-export const Subtitle = styled.body`
+export const Subtitle = styled.div`
   color: ${theme.colors.primary.main};
   font-size: ${theme.font.sizes.bold.body};
   font-weight: 700;
@@ -32,4 +32,8 @@ export const Text = styled.label`
   color: ${theme.colors.textBase};
   font-size: ${theme.font.sizes.regular.label};
   line-height: 1.5rem;
+`
+export const Icon = styled.img`
+  width: 3.1875rem;
+  height: 3.1875rem;
 `
