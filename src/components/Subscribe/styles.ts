@@ -5,7 +5,6 @@ import RectangleSubscribe from 'assets/rectangle-subscribe.svg'
 
 export const Wrapper = styled.div`
   width: 100%;
-  margin-top: 7.5rem;
   background-image: url(${RectangleSubscribe.src}),
     linear-gradient(
       0.25turn,

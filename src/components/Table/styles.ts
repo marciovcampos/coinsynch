@@ -19,6 +19,8 @@ export const TableContainer = styled.table`
   th {
     text-align: left;
     vertical-align: middle;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
   td {
     height: 4rem;

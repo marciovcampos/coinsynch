@@ -3,7 +3,20 @@ import { Table } from 'components/Table'
 
 import * as S from './styles'
 
+type Criptos = {
+  name: string
+  price: string
+  change: string
+}
+
 function TopCryptos() {
+  const data: Criptos[] = [
+    { name: 'Bitcoin BTC', price: 'US$ 25.499,52', change: '+5,65%' },
+    { name: 'Ethereum ETH', price: 'US$ 15.499,52', change: '-5,65%' },
+    { name: 'Cardano ADA', price: 'US$ 5.499,52', change: '-5,65%' },
+    { name: 'Solana SOL', price: 'US$ 2.499,52', change: '+5,65%' }
+  ]
+
   return (
     <Container>
       <S.TopCryptosContainer>
@@ -18,42 +31,21 @@ function TopCryptos() {
               <th>Trade</th>
             </tr>
           </thead>
+
           <tbody>
-            <tr>
-              <td>01</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>02</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>03</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>04</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>05</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
+            <>
+              {data.map((crypto, id) => {
+                return (
+                  <tr key={id}>
+                    <td>{id}</td>
+                    <td>{crypto.name}</td>
+                    <td>{crypto.price}</td>
+                    <td>{crypto.change}</td>
+                    <td></td>
+                  </tr>
+                )
+              })}
+            </>
           </tbody>
         </Table>
       </S.TopCryptosContainer>
