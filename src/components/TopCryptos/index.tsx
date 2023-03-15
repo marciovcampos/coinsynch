@@ -19,7 +19,7 @@ function TopCryptos() {
 
   return (
     <Container>
-      <S.TopCryptosContainer>
+      <S.TopCryptosContainer id="criptos">
         <S.Title>Top Cryptos</S.Title>
         <Table>
           <thead>

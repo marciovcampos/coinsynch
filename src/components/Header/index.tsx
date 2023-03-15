@@ -11,7 +11,7 @@ function Header() {
         <S.Logo src={LogoCoinSynch.src} alt="CoinSynch Logo"></S.Logo>
         <S.Links>
           <S.LinkComponent href="#about">About Us</S.LinkComponent>
-          <S.LinkComponent href="#about">Top Cryptos</S.LinkComponent>
+          <S.LinkComponent href="#criptos">Top Cryptos</S.LinkComponent>
         </S.Links>
 
         <S.Buttons>
