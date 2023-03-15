@@ -41,7 +41,9 @@ function TopCryptos() {
                     <td>{crypto.name}</td>
                     <td>{crypto.price}</td>
                     <td>{crypto.change}</td>
-                    <td></td>
+                    <td>
+                      <S.Button>Buy</S.Button>
+                    </td>
                   </tr>
                 )
               })}
