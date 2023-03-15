@@ -18,11 +18,21 @@ If you liked the project or if CoinSynch helped you, please give a star ;)
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
 - [Husky](https://github.com/typicode/husky)
 - [Commitlint](https://commitlint.js.org/#/)
-
+- [GitHub Actions](https://github.com/features/actions)
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+Then run the development server:
 
 ```bash
 npm run dev
