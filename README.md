@@ -3,7 +3,7 @@
 What is the CoinSynch?
 =====================
 
-CoinSynch is a frontend challege.
+CoinSynch is a frontend challege with TypeScript, React, NextJS and Styled Components
 
 ## Give a Star! :star:
 If you liked the project or if CoinSynch helped you, please give a star ;)

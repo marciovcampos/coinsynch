@@ -15,7 +15,7 @@ function App({ Component, pageProps }: AppProps) {
         <meta name="theme-color" content="#0609B" />
         <meta
           name="description"
-          content="A simple project starter to work with TypeScript, React, NextJS and Styled Components"
+          content="CoinSynch is a frontend challege with TypeScript, React, NextJS and Styled Components"
         />
       </Head>
       <GlobalStyles />
